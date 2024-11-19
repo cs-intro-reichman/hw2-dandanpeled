@@ -25,7 +25,7 @@ public class Cheers {
             System.out.println("What does that spell?");
 
             for (int i = 0; i < repetition; i++){
-                System.out.println(word + "!!!");
+                System.out.println(word.toUpperCase() + "!!!");
             }
         }
 }
