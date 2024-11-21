@@ -9,15 +9,16 @@ public class Cheers {
             
             for (int i = 0; i < word.length() ; i++){
                 letter = word.charAt(i);
+                String letter_str = Character.toString(letter).toUpperCase();
 
                 if (testChar.indexOf(letter) != -1){
-
-                        output = "Give me an " + letter + ": " + letter + "!";
+                        
+                        output = "Give me an " + letter_str + ": " + letter_str + "!";
 
                 }
 
                 else{
-                        output = "Give me a " + letter + ": " + letter + "!";
+                        output = "Give me a " + letter_str + ": " + letter_str + "!";
                 }
         
                 System.out.println(output);
