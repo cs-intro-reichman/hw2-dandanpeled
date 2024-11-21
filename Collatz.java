@@ -35,13 +35,13 @@ public class Collatz {
 				System.out.print("(" + hailstone_steps + ")");
 				System.out.println();
 			}
-			System.out.println("Every one of the first " + seed +" hailstone sequence reached 1.");
+			System.out.println("Every one of the first " + seed +" hailstone sequences reached 1.");
 
 		}
 
 		// check if mode is C
 		if (mode.equals("c")){
-			System.out.println("Every one of the first " + seed + " hailstone sequence reached 1.");
+			System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 		}
 
 	}
