@@ -1,11 +1,14 @@
 // Demonstrates the Collatz conjecture.
 public class Collatz {
 	public static void main(String args[]) {
-	    // Input
+	    // Input from user
 		int seed = Integer.parseInt(args[0]);
 		String mode = args[1];
-		if (mode.equals("v")){
 
+		// check if mode is Verbose
+		if (mode.equals("v")){
+		
+		// Loop to create hailstone sequences
 		for (int i = 1; i <= seed; i++){
 			int current_num = i;
 			int steps = 0;
@@ -36,6 +39,7 @@ public class Collatz {
 
 		}
 
+		// check if mode is C
 		if (mode.equals("c")){
 			System.out.println("Every one of the first " + seed + " hailstone sequence reached 1.");
 		}
