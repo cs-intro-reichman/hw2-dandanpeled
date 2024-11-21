@@ -11,7 +11,7 @@ public class Collatz {
 		// Loop to create hailstone sequences
 		for (int i = 1; i <= seed; i++){
 			int current_num = i;
-			int steps = 0;
+			int hailstone_steps = 0;
 			System.out.print(i + " ");
 			
 				do {
@@ -25,14 +25,14 @@ public class Collatz {
 						current_num = (current_num *3) +1;
 					}
 					
-					steps ++;
+					hailstone_steps ++;
 
 				} while (current_num != 1);
 
 				System.out.print ("1 ");
-				steps ++;
+				hailstone_steps ++;
 
-				System.out.print("(" + steps + ")");
+				System.out.print("(" + hailstone_steps + ")");
 				System.out.println();
 			}
 			System.out.println("Every one of the first " + seed +" hailstone sequence reached 1.");
