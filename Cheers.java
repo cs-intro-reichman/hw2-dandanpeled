@@ -18,7 +18,7 @@ public class Cheers {
                 }
 
                 else{
-                        output = "Give me a " + letter_str + ": " + letter_str + "!";
+                        output = "Give me a  " + letter_str + ": " + letter_str + "!";
                 }
         
                 System.out.println(output);
